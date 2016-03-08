@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		743CFE7D1C8F9633001E4F5D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743CFE7C1C8F9633001E4F5D /* AppDelegate.swift */; };
+		743CFE7F1C8F9633001E4F5D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743CFE7E1C8F9633001E4F5D /* ViewController.swift */; };
+		743CFE821C8F9633001E4F5D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 743CFE801C8F9633001E4F5D /* Main.storyboard */; };
+		743CFE841C8F9633001E4F5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 743CFE831C8F9633001E4F5D /* Assets.xcassets */; };
+		743CFE871C8F9633001E4F5D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 743CFE851C8F9633001E4F5D /* LaunchScreen.storyboard */; };
+		743CFE921C8F9633001E4F5D /* Show_e_earphoneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743CFE911C8F9633001E4F5D /* Show_e_earphoneTests.swift */; };
+		743CFE9D1C8F9633001E4F5D /* Show_e_earphoneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 743CFE9C1C8F9633001E4F5D /* Show_e_earphoneUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		743CFE8E1C8F9633001E4F5D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 743CFE711C8F9633001E4F5D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 743CFE781C8F9633001E4F5D;
+			remoteInfo = "Show_e-earphone";
+		};
+		743CFE991C8F9633001E4F5D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 743CFE711C8F9633001E4F5D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 743CFE781C8F9633001E4F5D;
+			remoteInfo = "Show_e-earphone";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		743CFE791C8F9633001E4F5D /* Show_e-earphone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Show_e-earphone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		743CFE7C1C8F9633001E4F5D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		743CFE7E1C8F9633001E4F5D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		743CFE811C8F9633001E4F5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		743CFE831C8F9633001E4F5D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		743CFE861C8F9633001E4F5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		743CFE881C8F9633001E4F5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		743CFE8D1C8F9633001E4F5D /* Show_e-earphoneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Show_e-earphoneTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		743CFE911C8F9633001E4F5D /* Show_e_earphoneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Show_e_earphoneTests.swift; sourceTree = "<group>"; };
+		743CFE931C8F9633001E4F5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		743CFE981C8F9633001E4F5D /* Show_e-earphoneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Show_e-earphoneUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		743CFE9C1C8F9633001E4F5D /* Show_e_earphoneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Show_e_earphoneUITests.swift; sourceTree = "<group>"; };
+		743CFE9E1C8F9633001E4F5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		743CFE761C8F9633001E4F5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		743CFE8A1C8F9633001E4F5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		743CFE951C8F9633001E4F5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		743CFE701C8F9633001E4F5D = {
+			isa = PBXGroup;
+			children = (
+				743CFE7B1C8F9633001E4F5D /* Show_e-earphone */,
+				743CFE901C8F9633001E4F5D /* Show_e-earphoneTests */,
+				743CFE9B1C8F9633001E4F5D /* Show_e-earphoneUITests */,
+				743CFE7A1C8F9633001E4F5D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		743CFE7A1C8F9633001E4F5D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				743CFE791C8F9633001E4F5D /* Show_e-earphone.app */,
+				743CFE8D1C8F9633001E4F5D /* Show_e-earphoneTests.xctest */,
+				743CFE981C8F9633001E4F5D /* Show_e-earphoneUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		743CFE7B1C8F9633001E4F5D /* Show_e-earphone */ = {
+			isa = PBXGroup;
+			children = (
+				743CFE7C1C8F9633001E4F5D /* AppDelegate.swift */,
+				743CFE7E1C8F9633001E4F5D /* ViewController.swift */,
+				743CFE801C8F9633001E4F5D /* Main.storyboard */,
+				743CFE831C8F9633001E4F5D /* Assets.xcassets */,
+				743CFE851C8F9633001E4F5D /* LaunchScreen.storyboard */,
+				743CFE881C8F9633001E4F5D /* Info.plist */,
+			);
+			path = "Show_e-earphone";
+			sourceTree = "<group>";
+		};
+		743CFE901C8F9633001E4F5D /* Show_e-earphoneTests */ = {
+			isa = PBXGroup;
+			children = (
+				743CFE911C8F9633001E4F5D /* Show_e_earphoneTests.swift */,
+				743CFE931C8F9633001E4F5D /* Info.plist */,
+			);
+			path = "Show_e-earphoneTests";
+			sourceTree = "<group>";
+		};
+		743CFE9B1C8F9633001E4F5D /* Show_e-earphoneUITests */ = {
+			isa = PBXGroup;
+			children = (
+				743CFE9C1C8F9633001E4F5D /* Show_e_earphoneUITests.swift */,
+				743CFE9E1C8F9633001E4F5D /* Info.plist */,
+			);
+			path = "Show_e-earphoneUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		743CFE781C8F9633001E4F5D /* Show_e-earphone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 743CFEA11C8F9633001E4F5D /* Build configuration list for PBXNativeTarget "Show_e-earphone" */;
+			buildPhases = (
+				743CFE751C8F9633001E4F5D /* Sources */,
+				743CFE761C8F9633001E4F5D /* Frameworks */,
+				743CFE771C8F9633001E4F5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Show_e-earphone";
+			productName = "Show_e-earphone";
+			productReference = 743CFE791C8F9633001E4F5D /* Show_e-earphone.app */;
+			productType = "com.apple.product-type.application";
+		};
+		743CFE8C1C8F9633001E4F5D /* Show_e-earphoneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 743CFEA41C8F9633001E4F5D /* Build configuration list for PBXNativeTarget "Show_e-earphoneTests" */;
+			buildPhases = (
+				743CFE891C8F9633001E4F5D /* Sources */,
+				743CFE8A1C8F9633001E4F5D /* Frameworks */,
+				743CFE8B1C8F9633001E4F5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				743CFE8F1C8F9633001E4F5D /* PBXTargetDependency */,
+			);
+			name = "Show_e-earphoneTests";
+			productName = "Show_e-earphoneTests";
+			productReference = 743CFE8D1C8F9633001E4F5D /* Show_e-earphoneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		743CFE971C8F9633001E4F5D /* Show_e-earphoneUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 743CFEA71C8F9633001E4F5D /* Build configuration list for PBXNativeTarget "Show_e-earphoneUITests" */;
+			buildPhases = (
+				743CFE941C8F9633001E4F5D /* Sources */,
+				743CFE951C8F9633001E4F5D /* Frameworks */,
+				743CFE961C8F9633001E4F5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				743CFE9A1C8F9633001E4F5D /* PBXTargetDependency */,
+			);
+			name = "Show_e-earphoneUITests";
+			productName = "Show_e-earphoneUITests";
+			productReference = 743CFE981C8F9633001E4F5D /* Show_e-earphoneUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		743CFE711C8F9633001E4F5D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "仁田脇 理史";
+				TargetAttributes = {
+					743CFE781C8F9633001E4F5D = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = NDR3YN2RQG;
+					};
+					743CFE8C1C8F9633001E4F5D = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = NDR3YN2RQG;
+						TestTargetID = 743CFE781C8F9633001E4F5D;
+					};
+					743CFE971C8F9633001E4F5D = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = NDR3YN2RQG;
+						TestTargetID = 743CFE781C8F9633001E4F5D;
+					};
+				};
+			};
+			buildConfigurationList = 743CFE741C8F9633001E4F5D /* Build configuration list for PBXProject "Show_e-earphone" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 743CFE701C8F9633001E4F5D;
+			productRefGroup = 743CFE7A1C8F9633001E4F5D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				743CFE781C8F9633001E4F5D /* Show_e-earphone */,
+				743CFE8C1C8F9633001E4F5D /* Show_e-earphoneTests */,
+				743CFE971C8F9633001E4F5D /* Show_e-earphoneUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		743CFE771C8F9633001E4F5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				743CFE871C8F9633001E4F5D /* LaunchScreen.storyboard in Resources */,
+				743CFE841C8F9633001E4F5D /* Assets.xcassets in Resources */,
+				743CFE821C8F9633001E4F5D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		743CFE8B1C8F9633001E4F5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		743CFE961C8F9633001E4F5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		743CFE751C8F9633001E4F5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				743CFE7F1C8F9633001E4F5D /* ViewController.swift in Sources */,
+				743CFE7D1C8F9633001E4F5D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		743CFE891C8F9633001E4F5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				743CFE921C8F9633001E4F5D /* Show_e_earphoneTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		743CFE941C8F9633001E4F5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				743CFE9D1C8F9633001E4F5D /* Show_e_earphoneUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		743CFE8F1C8F9633001E4F5D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 743CFE781C8F9633001E4F5D /* Show_e-earphone */;
+			targetProxy = 743CFE8E1C8F9633001E4F5D /* PBXContainerItemProxy */;
+		};
+		743CFE9A1C8F9633001E4F5D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 743CFE781C8F9633001E4F5D /* Show_e-earphone */;
+			targetProxy = 743CFE991C8F9633001E4F5D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		743CFE801C8F9633001E4F5D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				743CFE811C8F9633001E4F5D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		743CFE851C8F9633001E4F5D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				743CFE861C8F9633001E4F5D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		743CFE9F1C8F9633001E4F5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		743CFEA01C8F9633001E4F5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		743CFEA21C8F9633001E4F5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Show_e-earphone/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.self.Show-e-earphone";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		743CFEA31C8F9633001E4F5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Show_e-earphone/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.self.Show-e-earphone";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		743CFEA51C8F9633001E4F5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Show_e-earphoneTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.self.Show-e-earphoneTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Show_e-earphone.app/Show_e-earphone";
+			};
+			name = Debug;
+		};
+		743CFEA61C8F9633001E4F5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Show_e-earphoneTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.self.Show-e-earphoneTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Show_e-earphone.app/Show_e-earphone";
+			};
+			name = Release;
+		};
+		743CFEA81C8F9633001E4F5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Show_e-earphoneUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.self.Show-e-earphoneUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Show_e-earphone";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		743CFEA91C8F9633001E4F5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Show_e-earphoneUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.self.Show-e-earphoneUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Show_e-earphone";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		743CFE741C8F9633001E4F5D /* Build configuration list for PBXProject "Show_e-earphone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				743CFE9F1C8F9633001E4F5D /* Debug */,
+				743CFEA01C8F9633001E4F5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		743CFEA11C8F9633001E4F5D /* Build configuration list for PBXNativeTarget "Show_e-earphone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				743CFEA21C8F9633001E4F5D /* Debug */,
+				743CFEA31C8F9633001E4F5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		743CFEA41C8F9633001E4F5D /* Build configuration list for PBXNativeTarget "Show_e-earphoneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				743CFEA51C8F9633001E4F5D /* Debug */,
+				743CFEA61C8F9633001E4F5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		743CFEA71C8F9633001E4F5D /* Build configuration list for PBXNativeTarget "Show_e-earphoneUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				743CFEA81C8F9633001E4F5D /* Debug */,
+				743CFEA91C8F9633001E4F5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 743CFE711C8F9633001E4F5D /* Project object */;
+}
