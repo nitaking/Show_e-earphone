@@ -4,21 +4,5 @@
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
     </dependencies>
-    <scenes>
-        <!--View Controller-->
-        <scene sceneID="hIG-9a-tnb">
-            <objects>
-                <viewController id="WFY-oQ-0nh" sceneMemberID="viewController">
-                    <webView key="view" contentMode="scaleToFill" id="xdT-ce-iRF">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="deviceRGB"/>
-                    </webView>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Mha-ho-VH4" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="781.5" y="185.5"/>
-        </scene>
-    </scenes>
+    <scenes/>
 </document>
