@@ -8,9 +8,9 @@
 
 import UIKit
 
-class ViewController: UIViewController ,UIWebViewDelegate {
+class ViewController: UIViewController , UIWebViewDelegate{
     
-    @IBOutlet var webview : UIWebView?
+    var webview : UIWebView!
     let URL_e_earphone = "http://www.e-earphone.jp/"
     
     override func viewDidLoad() {
@@ -29,14 +29,13 @@ class ViewController: UIViewController ,UIWebViewDelegate {
     
     func loadStartURL() {
         let targetURL = NSURL(string: URL_e_earphone)
-        let request = NSURLRequest(URL: targetURL!)
+        let request: NSURLRequest = NSURLRequest(URL: targetURL!)
         
         webview?.loadRequest(request)
     }
     
     func createWebView() -> UIWebView {
         let _webView = UIWebView()
-        
         _webView.frame = self.view.bounds
         
         return _webView
