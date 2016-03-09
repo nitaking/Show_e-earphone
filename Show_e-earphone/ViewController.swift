@@ -10,19 +10,16 @@ import UIKit
 
 class ViewController: UIViewController ,UIWebViewDelegate {
     
+    @IBOutlet var webview : UIWebView?
     let URL_e_earphone = "http://www.e-earphone.jp/"
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let webView : UIWebView = UIWebView()
-        webView.delegate = self
-        webView.frame = self.view.bounds
-        self.view.addSubview(webView)
-        let url: NSURL = NSURL(string: URL_e_earphone)!
-        let request: NSURLRequest = NSURLRequest(URL: url)
-        webView.loadRequest(request)
+        self.webview = self.createWebView()
+        self.view.addSubview(self.webview!)
         
+        loadStartURL()
     }
 
     override func didReceiveMemoryWarning() {
@@ -30,14 +27,19 @@ class ViewController: UIViewController ,UIWebViewDelegate {
         // Dispose of any resources that can be recreated.
     }
     
-    // 自動呼び出し関数
-    func webViewDidStartLoad(webView: UIWebView) {
-        print("読み込み開始しました！" )
+    func loadStartURL() {
+        let targetURL = NSURL(string: URL_e_earphone)
+        let request = NSURLRequest(URL: targetURL!)
+        
+        webview?.loadRequest(request)
     }
     
-    // 自動呼び出し関数
-    func webViewDidFinishLoad(webView: UIWebView) {
-        print("読み込み完了しました！")
+    func createWebView() -> UIWebView {
+        let _webView = UIWebView()
+        
+        _webView.frame = self.view.bounds
+        
+        return _webView
     }
 }
 
