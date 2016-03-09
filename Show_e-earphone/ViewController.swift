@@ -10,29 +10,34 @@ import UIKit
 
 class ViewController: UIViewController ,UIWebViewDelegate {
     
+    let URL_e_earphone = "http://www.e-earphone.jp/"
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let URL_e_earphone = "http://www.e-earphone.jp/"
         let webView : UIWebView = UIWebView()
         webView.delegate = self
+        webView.frame = self.view.bounds
+        self.view.addSubview(webView)
+        let url: NSURL = NSURL(string: URL_e_earphone)!
+        let request: NSURLRequest = NSURLRequest(URL: url)
+        webView.loadRequest(request)
         
-        // URL_e_earphone指定のURLを表示
-        showWebSite()
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-    func showWebSite(){
-        let targetURL = NSURL(fileURLWithPath:URL_e_earphone)
-        
-        let req = NSURLRequest(URL: targetURL)
-        
-        webView.loadRequest(req)
-        webView.scalesPageToFit = false
+    
+    // 自動呼び出し関数
+    func webViewDidStartLoad(webView: UIWebView) {
+        print("読み込み開始しました！" )
+    }
+    
+    // 自動呼び出し関数
+    func webViewDidFinishLoad(webView: UIWebView) {
+        print("読み込み完了しました！")
     }
 }
 
