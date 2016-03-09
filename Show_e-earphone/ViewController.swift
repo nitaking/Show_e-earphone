@@ -8,11 +8,17 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-
+class ViewController: UIViewController ,UIWebViewDelegate {
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        let URL_e_earphone = "http://www.e-earphone.jp/"
+        let webView : UIWebView = UIWebView()
+        webView.delegate = self
+        
+        // URL_e_earphone指定のURLを表示
+        showWebSite()
     }
 
     override func didReceiveMemoryWarning() {
@@ -20,6 +26,13 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-
+    func showWebSite(){
+        let targetURL = NSURL(fileURLWithPath:URL_e_earphone)
+        
+        let req = NSURLRequest(URL: targetURL)
+        
+        webView.loadRequest(req)
+        webView.scalesPageToFit = false
+    }
 }
 
